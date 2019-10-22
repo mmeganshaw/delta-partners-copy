@@ -1,0 +1,24 @@
+{
+  "name": "delta-partners",
+  "version": "1.0.0",
+  "description": "A copy of the Delta Partners site",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeganshaw/delta-partners-copy.git"
+  },
+  "author": "Megan Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmeganshaw/delta-partners-copy/issues"
+  },
+  "homepage": "https://github.com/mmeganshaw/delta-partners-copy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}

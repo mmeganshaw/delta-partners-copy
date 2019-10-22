@@ -1,0 +1,118 @@
+
+
+ .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+
+  .landing {
+    position: relative;
+    background: url('../images/header.png') no-repeat center center/cover;
+    height: 60vh;
+  }
+  
+  .landing-inner {
+    color: #fff;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-about {
+    position: relative;
+    background: url('../images/about/about_header.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .landing-track {
+    position: relative;
+    background: url('../images/track/track-record-header.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+  
+  .landing-contact {
+    position: relative;
+    background: url('../images/contact/CONTACT_HEADER.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .landing-blog {
+    position: relative;
+    background: url('../images/blog/blog.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .landing-blog-chro {
+    position: relative;
+    background: url('../images/blog/blog-chro-header.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .landing-team {
+    position: relative;
+    background: url('../images/team/team-header.png') no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+
+  body {
+    background: url("../images/another_back.png") no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    font-weight: 300;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .deltablue {
+    color: #3067b1;
+  }
+
+  #hidden-div {
+    display: none;
+  }
+  
+  .black-text {
+    color: black;
+  }
+
+  #sidenav-overlay { 
+    z-index: 1; 
+  }
