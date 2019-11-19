@@ -34,9 +34,14 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname + '/../public/blog.html'));
     });
 
-    // route to the blog page
+    // route to the first blog article
     app.get('/blog/chro', function(req, res) {
         res.sendFile(path.join(__dirname + '/../public/blog-chro.html'));
+    });
+
+    // route to adam joining delta partners article
+    app.get('/blog/adam-joins', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/blog-joins.html'));
     });
 
     app.get('/team', function(req, res) {
