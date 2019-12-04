@@ -44,9 +44,9 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname + '/../public/blog-joins.html'));
     });
 
-    app.get('/team', function(req, res) {
-        res.sendFile(path.join(__dirname + '/../public/team.html'));
-    });
+    // app.get('/team', function(req, res) {
+    //     res.sendFile(path.join(__dirname + '/../public/team.html'));
+    // });
 
     app.get('/sitemap', function(req, res) {
         res.sendFile(path.join(__dirname + '/../public/sitemap.xml'));
